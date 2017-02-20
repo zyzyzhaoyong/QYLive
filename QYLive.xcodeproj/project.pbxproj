@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18831A561E5AC38D001126AA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18831A521E5AC38D001126AA /* libcrypto.a */; };
+		18831A571E5AC38D001126AA /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18831A531E5AC38D001126AA /* librtmp.a */; };
+		18831A581E5AC38D001126AA /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18831A541E5AC38D001126AA /* libssl.a */; };
+		18831A5D1E5AC720001126AA /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18831A5B1E5AC720001126AA /* libbz2.tbd */; };
+		18831A5E1E5AC720001126AA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18831A5C1E5AC720001126AA /* libz.tbd */; };
+		18831A621E5ACBEE001126AA /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18831A611E5ACBEE001126AA /* DMHeartFlyView.m */; };
+		18831A641E5AD228001126AA /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18831A631E5AD228001126AA /* emmitParticles.swift */; };
+		189E18881E58302000E0095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18871E58302000E0095F /* AppDelegate.swift */; };
+		189E188A1E58302000E0095F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18891E58302000E0095F /* ViewController.swift */; };
+		189E188D1E58302000E0095F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E188B1E58302000E0095F /* Main.storyboard */; };
+		189E188F1E58302000E0095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E188E1E58302000E0095F /* Assets.xcassets */; };
+		189E18921E58302000E0095F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E18901E58302000E0095F /* LaunchScreen.storyboard */; };
+		189E189D1E58302000E0095F /* QYLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E189C1E58302000E0095F /* QYLiveTests.swift */; };
+		189E18A81E58302000E0095F /* QYLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18A71E58302000E0095F /* QYLiveUITests.swift */; };
+		189E18BA1E58303500E0095F /* ZYCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18B61E58303500E0095F /* ZYCell.swift */; };
+		189E18BB1E58303500E0095F /* ZYCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18B71E58303500E0095F /* ZYCreator.swift */; };
+		189E18BC1E58303500E0095F /* ZYLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18B81E58303500E0095F /* ZYLive.swift */; };
+		189E18BD1E58303500E0095F /* ZYRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18B91E58303500E0095F /* ZYRootClass.swift */; };
+		189E18BF1E58308000E0095F /* ZYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18BE1E58308000E0095F /* ZYTableViewController.swift */; };
+		189E18C11E5838C300E0095F /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 189E18C01E5838C300E0095F /* podfile */; };
+		189E18C31E58431A00E0095F /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E18C21E58431A00E0095F /* LiveTableViewCell.swift */; };
+		83E7F98C55C553606B958CC9 /* Pods_QYLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AA5E5B06FE685CB4786F17 /* Pods_QYLive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189E18991E58302000E0095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E187C1E58302000E0095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E18831E58302000E0095F;
+			remoteInfo = QYLive;
+		};
+		189E18A41E58302000E0095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E187C1E58302000E0095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E18831E58302000E0095F;
+			remoteInfo = QYLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18831A521E5AC38D001126AA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		18831A531E5AC38D001126AA /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		18831A541E5AC38D001126AA /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		18831A591E5AC3FB001126AA /* QYLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYLive-Bridging-Header.h"; sourceTree = "<group>"; };
+		18831A5B1E5AC720001126AA /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		18831A5C1E5AC720001126AA /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		18831A601E5ACBEE001126AA /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		18831A611E5ACBEE001126AA /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		18831A631E5AD228001126AA /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		189E18841E58302000E0095F /* QYLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E18871E58302000E0095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189E18891E58302000E0095F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189E188C1E58302000E0095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189E188E1E58302000E0095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189E18911E58302000E0095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189E18931E58302000E0095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E18981E58302000E0095F /* QYLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E189C1E58302000E0095F /* QYLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLiveTests.swift; sourceTree = "<group>"; };
+		189E189E1E58302000E0095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E18A31E58302000E0095F /* QYLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E18A71E58302000E0095F /* QYLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLiveUITests.swift; sourceTree = "<group>"; };
+		189E18A91E58302000E0095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E18B61E58303500E0095F /* ZYCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYCell.swift; sourceTree = "<group>"; };
+		189E18B71E58303500E0095F /* ZYCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYCreator.swift; sourceTree = "<group>"; };
+		189E18B81E58303500E0095F /* ZYLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYLive.swift; sourceTree = "<group>"; };
+		189E18B91E58303500E0095F /* ZYRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYRootClass.swift; sourceTree = "<group>"; };
+		189E18BE1E58308000E0095F /* ZYTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYTableViewController.swift; sourceTree = "<group>"; };
+		189E18C01E5838C300E0095F /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		189E18C21E58431A00E0095F /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		4B84CF98C6E0554CDB4CA964 /* Pods-QYLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYLive/Pods-QYLive.release.xcconfig"; sourceTree = "<group>"; };
+		57C53515136FFB371A5F4CA1 /* Pods-QYLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYLive/Pods-QYLive.debug.xcconfig"; sourceTree = "<group>"; };
+		D2AA5E5B06FE685CB4786F17 /* Pods_QYLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189E18811E58302000E0095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18831A581E5AC38D001126AA /* libssl.a in Frameworks */,
+				83E7F98C55C553606B958CC9 /* Pods_QYLive.framework in Frameworks */,
+				18831A5E1E5AC720001126AA /* libz.tbd in Frameworks */,
+				18831A5D1E5AC720001126AA /* libbz2.tbd in Frameworks */,
+				18831A571E5AC38D001126AA /* librtmp.a in Frameworks */,
+				18831A561E5AC38D001126AA /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E18951E58302000E0095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E18A01E58302000E0095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18831A5F1E5ACBEE001126AA /* HeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				18831A601E5ACBEE001126AA /* DMHeartFlyView.h */,
+				18831A611E5ACBEE001126AA /* DMHeartFlyView.m */,
+			);
+			path = HeartFlyView;
+			sourceTree = "<group>";
+		};
+		189E187B1E58301F00E0095F = {
+			isa = PBXGroup;
+			children = (
+				189E18C01E5838C300E0095F /* podfile */,
+				18831A521E5AC38D001126AA /* libcrypto.a */,
+				18831A5B1E5AC720001126AA /* libbz2.tbd */,
+				18831A5C1E5AC720001126AA /* libz.tbd */,
+				18831A531E5AC38D001126AA /* librtmp.a */,
+				18831A541E5AC38D001126AA /* libssl.a */,
+				189E18861E58302000E0095F /* QYLive */,
+				189E189B1E58302000E0095F /* QYLiveTests */,
+				189E18A61E58302000E0095F /* QYLiveUITests */,
+				189E18851E58302000E0095F /* Products */,
+				A521E78BE4602232651A9FEE /* Pods */,
+				E3CF44F730B6315005E57B85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189E18851E58302000E0095F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189E18841E58302000E0095F /* QYLive.app */,
+				189E18981E58302000E0095F /* QYLiveTests.xctest */,
+				189E18A31E58302000E0095F /* QYLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189E18861E58302000E0095F /* QYLive */ = {
+			isa = PBXGroup;
+			children = (
+				18831A631E5AD228001126AA /* emmitParticles.swift */,
+				18831A5F1E5ACBEE001126AA /* HeartFlyView */,
+				189E18B51E58303500E0095F /* Model */,
+				189E18871E58302000E0095F /* AppDelegate.swift */,
+				189E18891E58302000E0095F /* ViewController.swift */,
+				189E18C21E58431A00E0095F /* LiveTableViewCell.swift */,
+				189E18BE1E58308000E0095F /* ZYTableViewController.swift */,
+				189E188B1E58302000E0095F /* Main.storyboard */,
+				189E188E1E58302000E0095F /* Assets.xcassets */,
+				189E18901E58302000E0095F /* LaunchScreen.storyboard */,
+				189E18931E58302000E0095F /* Info.plist */,
+			);
+			path = QYLive;
+			sourceTree = "<group>";
+		};
+		189E189B1E58302000E0095F /* QYLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				189E189C1E58302000E0095F /* QYLiveTests.swift */,
+				189E189E1E58302000E0095F /* Info.plist */,
+			);
+			path = QYLiveTests;
+			sourceTree = "<group>";
+		};
+		189E18A61E58302000E0095F /* QYLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189E18A71E58302000E0095F /* QYLiveUITests.swift */,
+				189E18A91E58302000E0095F /* Info.plist */,
+			);
+			path = QYLiveUITests;
+			sourceTree = "<group>";
+		};
+		189E18B51E58303500E0095F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189E18B61E58303500E0095F /* ZYCell.swift */,
+				189E18B71E58303500E0095F /* ZYCreator.swift */,
+				189E18B81E58303500E0095F /* ZYLive.swift */,
+				189E18B91E58303500E0095F /* ZYRootClass.swift */,
+				18831A591E5AC3FB001126AA /* QYLive-Bridging-Header.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A521E78BE4602232651A9FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C53515136FFB371A5F4CA1 /* Pods-QYLive.debug.xcconfig */,
+				4B84CF98C6E0554CDB4CA964 /* Pods-QYLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3CF44F730B6315005E57B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA5E5B06FE685CB4786F17 /* Pods_QYLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189E18831E58302000E0095F /* QYLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E18AC1E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLive" */;
+			buildPhases = (
+				EB3169BE9C64720834C7608D /* [CP] Check Pods Manifest.lock */,
+				189E18801E58302000E0095F /* Sources */,
+				189E18811E58302000E0095F /* Frameworks */,
+				189E18821E58302000E0095F /* Resources */,
+				33E51C02FE98EB3E983E5010 /* [CP] Embed Pods Frameworks */,
+				7345C396293B763886F12192 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYLive;
+			productName = QYLive;
+			productReference = 189E18841E58302000E0095F /* QYLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189E18971E58302000E0095F /* QYLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E18AF1E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLiveTests" */;
+			buildPhases = (
+				189E18941E58302000E0095F /* Sources */,
+				189E18951E58302000E0095F /* Frameworks */,
+				189E18961E58302000E0095F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E189A1E58302000E0095F /* PBXTargetDependency */,
+			);
+			name = QYLiveTests;
+			productName = QYLiveTests;
+			productReference = 189E18981E58302000E0095F /* QYLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189E18A21E58302000E0095F /* QYLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E18B21E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLiveUITests" */;
+			buildPhases = (
+				189E189F1E58302000E0095F /* Sources */,
+				189E18A01E58302000E0095F /* Frameworks */,
+				189E18A11E58302000E0095F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E18A51E58302000E0095F /* PBXTargetDependency */,
+			);
+			name = QYLiveUITests;
+			productName = QYLiveUITests;
+			productReference = 189E18A31E58302000E0095F /* QYLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189E187C1E58302000E0095F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "乔布永";
+				TargetAttributes = {
+					189E18831E58302000E0095F = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					189E18971E58302000E0095F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189E18831E58302000E0095F;
+					};
+					189E18A21E58302000E0095F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189E18831E58302000E0095F;
+					};
+				};
+			};
+			buildConfigurationList = 189E187F1E58302000E0095F /* Build configuration list for PBXProject "QYLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189E187B1E58301F00E0095F;
+			productRefGroup = 189E18851E58302000E0095F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189E18831E58302000E0095F /* QYLive */,
+				189E18971E58302000E0095F /* QYLiveTests */,
+				189E18A21E58302000E0095F /* QYLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189E18821E58302000E0095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E18921E58302000E0095F /* LaunchScreen.storyboard in Resources */,
+				189E18C11E5838C300E0095F /* podfile in Resources */,
+				189E188F1E58302000E0095F /* Assets.xcassets in Resources */,
+				189E188D1E58302000E0095F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E18961E58302000E0095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E18A11E58302000E0095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33E51C02FE98EB3E983E5010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYLive/Pods-QYLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7345C396293B763886F12192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYLive/Pods-QYLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3169BE9C64720834C7608D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189E18801E58302000E0095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E188A1E58302000E0095F /* ViewController.swift in Sources */,
+				189E18BF1E58308000E0095F /* ZYTableViewController.swift in Sources */,
+				189E18BB1E58303500E0095F /* ZYCreator.swift in Sources */,
+				189E18BC1E58303500E0095F /* ZYLive.swift in Sources */,
+				189E18BD1E58303500E0095F /* ZYRootClass.swift in Sources */,
+				189E18C31E58431A00E0095F /* LiveTableViewCell.swift in Sources */,
+				18831A641E5AD228001126AA /* emmitParticles.swift in Sources */,
+				189E18881E58302000E0095F /* AppDelegate.swift in Sources */,
+				189E18BA1E58303500E0095F /* ZYCell.swift in Sources */,
+				18831A621E5ACBEE001126AA /* DMHeartFlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E18941E58302000E0095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E189D1E58302000E0095F /* QYLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E189F1E58302000E0095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E18A81E58302000E0095F /* QYLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189E189A1E58302000E0095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E18831E58302000E0095F /* QYLive */;
+			targetProxy = 189E18991E58302000E0095F /* PBXContainerItemProxy */;
+		};
+		189E18A51E58302000E0095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E18831E58302000E0095F /* QYLive */;
+			targetProxy = 189E18A41E58302000E0095F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189E188B1E58302000E0095F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189E188C1E58302000E0095F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189E18901E58302000E0095F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189E18911E58302000E0095F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189E18AA1E58302000E0095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189E18AB1E58302000E0095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189E18AD1E58302000E0095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C53515136FFB371A5F4CA1 /* Pods-QYLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = QYLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QYLive/Model/QYLive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189E18AE1E58302000E0095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B84CF98C6E0554CDB4CA964 /* Pods-QYLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = QYLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QYLive/Model/QYLive-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		189E18B01E58302000E0095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QYLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYLive.app/QYLive";
+			};
+			name = Debug;
+		};
+		189E18B11E58302000E0095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QYLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYLive.app/QYLive";
+			};
+			name = Release;
+		};
+		189E18B31E58302000E0095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QYLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QYLive;
+			};
+			name = Debug;
+		};
+		189E18B41E58302000E0095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QYLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-QYLive.www.QYLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QYLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189E187F1E58302000E0095F /* Build configuration list for PBXProject "QYLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E18AA1E58302000E0095F /* Debug */,
+				189E18AB1E58302000E0095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E18AC1E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E18AD1E58302000E0095F /* Debug */,
+				189E18AE1E58302000E0095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E18AF1E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E18B01E58302000E0095F /* Debug */,
+				189E18B11E58302000E0095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E18B21E58302000E0095F /* Build configuration list for PBXNativeTarget "QYLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E18B31E58302000E0095F /* Debug */,
+				189E18B41E58302000E0095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189E187C1E58302000E0095F /* Project object */;
+}
